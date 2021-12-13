@@ -70,7 +70,7 @@ export const UsuarioController = {
     
         Usuario.findById(id, (error, usuario) => {
             if (error) {
-                resquest.status(400).json({ mensagem: 'Id do usuário não encontrado!' })
+                response.status(400).json({ mensagem: 'Id do usuário não encontrado!' })
             }
             if (nome) usuario.nome = nome
             if (dataNascimento) usuario.dataNascimento = dataNascimento

@@ -82,7 +82,7 @@ export const PostagemController = {
 
         Postagem.findById(id, (error, postagem) => {
             if (error) {
-                request.status(400).json({ mensagem: 'Id da postagem não encontrado' })
+                response.status(400).json({ mensagem: 'Id da postagem não encontrado' })
             }
             if (titulo) postagem.titulo = titulo
             if (descricao) postagem.descricao = descricao
