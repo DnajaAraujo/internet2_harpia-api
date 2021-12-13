@@ -1,7 +1,7 @@
 require("dotenv").config();
 
-import {routerPost} from './src/presentation/routes/postRoute';
-import {routerUsuario} from './src/presentation/routes/usuarioRoute';
+import {routerPost} from './presentation/routes/postRoute';
+import {routerUsuario} from './presentation/routes/usuarioRoute';
 
 
 import express from 'express';
@@ -9,7 +9,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import path from 'path';
 
-import {serverConfig} from './src/infrastructure/config/server'
+import {serverConfig} from './infrastructure/config/server'
 
 const app = express();
 
