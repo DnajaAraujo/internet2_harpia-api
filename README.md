@@ -1,3 +1,3 @@
-# harpia-api
-- Repositório destinado ao projeto a ser desenvolvido na disciplina de Projeto Integrador II.
+# internet2_harpia-api
+- Repositório destinado ao projeto final da disciplina de Programação para Internet II.
 
