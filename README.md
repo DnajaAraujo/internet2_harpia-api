@@ -1,14 +1,14 @@
 # internet2_harpia-api
 ## Integrantes :boy:
-- Dnajá Araújo
-- Ezequiel Teixeira
-- Wictor Gabriel
+- Dnajá Araújo (back-end)
+- Ezequiel Teixeira (back-end)
+- Wictor Gabriel (front-end)
 
 ## Tema do sistema :star:
 - Sistema para venda, empréstimo, troca e doação de livros.
 
 ## Tecnologias utilizadas :computer:
-- Node.js (JavaScript)
+- Node.js (JavaScript) + Express.js
 - MongoDB e AWS
 - Heroku
 
